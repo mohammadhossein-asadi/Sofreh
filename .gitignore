@@ -23,6 +23,9 @@ yarn-error.log*
 .env*
 !.env.example
 
+# local development tooling (do not commit)
+/freebuff/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
