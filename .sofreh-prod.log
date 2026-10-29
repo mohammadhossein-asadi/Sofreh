@@ -1,0 +1,12 @@
+
+> fridgechef@0.1.0 start
+> next start -p 9598
+
+   ▲ Next.js 15.5.25
+   - Local:        http://localhost:9598
+   - Network:      http://172.28.176.1:9598
+
+ ✓ Starting...
+ ✓ Ready in 772ms
+(node:8056) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)

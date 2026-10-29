@@ -1,0 +1,57 @@
+
+> fridgechef@0.1.0 dev
+> next dev --port 11973
+
+   ▲ Next.js 15.5.25
+   - Local:        http://localhost:11973
+   - Network:      http://172.26.144.1:11973
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling /plan ...
+ ✓ Compiled /plan in 4.5s (1659 modules)
+(node:3808) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /plan 200 in 5194ms
+ GET /plan 200 in 140ms
+ ○ Compiling /[...slug] ...
+ ✓ Compiled /[...slug] in 804ms (1672 modules)
+ GET /plan 200 in 243ms
+ GET /favicon.ico 404 in 1976ms
+ ✓ Compiled in 696ms (1660 modules)
+ ✓ Compiled /[...slug] in 263ms (909 modules)
+ GET /plan 200 in 498ms
+ ○ Compiling /planner ...
+ GET /plan 404 in 25015ms
+[?25h
+   ▲ Next.js 15.5.25
+   - Local:        http://localhost:11973
+   - Network:      http://172.26.144.1:11973
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.8s
+ ○ Compiling /planner ...
+ ✓ Compiled /planner in 7.3s (1701 modules)
+(node:15472) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /planner 200 in 8787ms
+ ○ Compiling /plan ...
+ ✓ Compiled /plan in 3.1s (1718 modules)
+ GET /plan 200 in 3350ms
+ ✓ Compiled /shopping in 417ms (1713 modules)
+ GET /shopping 200 in 773ms
+ GET /planner 200 in 155ms
+ GET /planner 200 in 114ms
+ GET /plan 200 in 125ms
+ GET /shopping 200 in 77ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7.6s (2820 modules)
+ GET / 200 in 8447ms
+ ✓ Compiled in 753ms (1343 modules)
+ ✓ Compiled in 321ms (1343 modules)
+ ✓ Compiled in 295ms (1343 modules)
+ ✓ Compiled in 918ms (1344 modules)
+ ✓ Compiled in 358ms (1344 modules)
+ ✓ Compiled in 411ms (1344 modules)

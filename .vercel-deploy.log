@@ -1,0 +1,79 @@
+Vercel CLI 60.0.1 (Node.js 26.3.0)
+Deploying sofreh
+Uploading [--------------------] (0.0B/568.2KB)
+Uploading [=====---------------] (146.1KB/568.2KB)
+Uploading [==========----------] (284.7KB/568.2KB)
+Uploading [===============-----] (427.2KB/568.2KB)
+Uploading [====================] (568.2KB/568.2KB)
+  Inspect         https://vercel.com/mohammadhosseinasadis-projects/sofreh/HXtKJZPTzMtNaLtfKkVxPB4VKrM5
+  Production      https://sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.app
+https://sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.appBuilding…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 86 deployment files...
+Running "vercel build"
+Vercel CLI 59.25.4
+Installing dependencies...
+added 197 packages in 15s
+34 packages are looking for funding
+run `npm fund` for details
+Detected Next.js version: 15.5.25
+Running "npm run build"
+> sofreh@0.1.0 build
+> next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+▲ Next.js 15.5.25
+Creating an optimized production build ...
+✓ Compiled successfully in 28.4s
+Linting and checking validity of types ...
+Collecting page data ...
+Generating static pages (0/12) ...
+Generating static pages (3/12)
+Generating static pages (6/12)
+Generating static pages (9/12)
+✓ Generating static pages (12/12)
+Finalizing page optimization ...
+Collecting build traces ...
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    16.2 kB         195 kB
+├ ○ /_not-found                            132 B         103 kB
+├ ƒ /[...slug]                             132 B         103 kB
+├ ƒ /api/plan                              132 B         103 kB
+├ ○ /manifest.webmanifest                  132 B         103 kB
+├ ○ /plan                                7.01 kB         190 kB
+├ ○ /planner                             11.5 kB         187 kB
+├ ○ /recipes                             3.22 kB         188 kB
+├ ƒ /recipes/[id]                        6.87 kB         190 kB
+├ ○ /saved                               5.26 kB         159 kB
+├ ○ /settings                            3.64 kB         179 kB
+└ ○ /shopping                            7.45 kB         159 kB
++ First Load JS shared by all             103 kB
+├ chunks/255-37e0f0325134c4d7.js       46.4 kB
+├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+└ other shared chunks (total)          2.23 kB
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+Traced Next.js server files in: 68.847ms
+Created all serverless functions in: 955.906ms
+Collected static files (public/, static/, .next/static): 14.022ms
+Build Completed in /vercel/output [1m]
+Deploying outputs...
+[2K[1A[2K[G  Production      https://sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.app
+Completing…
+▲ Aliased         https://sofreh-delta.vercel.app
+
+✓ Ready in 2m
+
+Next steps:
+- Check the deployment response:
+  vercel curl https://sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.app
+- View build logs:
+  vercel inspect sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.app --logs
+- Create a new deployment from the same source:
+  vercel redeploy sofreh-r609c6gfq-mohammadhosseinasadis-projects.vercel.app

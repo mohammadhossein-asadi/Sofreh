@@ -1,0 +1,174 @@
+
+> fridgechef@0.1.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.5.25
+   - Local:        http://localhost:3000
+   - Network:      http://172.26.144.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 8.3s
+ ○ Compiling /recipes ...
+ ✓ Compiled /recipes in 7.8s (1652 modules)
+(node:17192) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /recipes 200 in 10397ms
+ ○ Compiling /saved ...
+ ✓ Compiled /saved in 769ms (1661 modules)
+ GET /saved 200 in 1246ms
+ ○ Compiling /recipes/[id] ...
+ ✓ Compiled /recipes/[id] in 6.9s (2789 modules)
+ GET /recipes/ghormeh-sabzi 200 in 8145ms
+ GET /recipes 200 in 198ms
+ GET /recipes/does-not-exist 200 in 200ms
+ ○ Compiling /planner ...
+ ✓ Compiled /planner in 1154ms (2816 modules)
+ GET /planner 200 in 2074ms
+ ✓ Compiled in 931ms (1335 modules)
+ GET /planner 200 in 160ms
+ ○ Compiling /api/plan ...
+ ✓ Compiled /api/plan in 1566ms (2939 modules)
+ POST /api/plan 200 in 1832ms
+ GET /planner 200 in 358ms
+ ○ Compiling /plan ...
+ ✓ Compiled /plan in 782ms (2952 modules)
+ GET /plan 200 in 904ms
+ GET /plan 200 in 40ms
+ GET /recipes/makaroni-irani 200 in 90ms
+ GET /recipes/makaroni-irani 200 in 1166ms
+ ○ Compiling /shopping ...
+ ✓ Compiled /shopping in 1109ms (2837 modules)
+ GET /shopping 200 in 1754ms
+ GET /shopping 200 in 356ms
+ GET /recipes 200 in 242ms
+ GET /saved 200 in 151ms
+ GET /saved 200 in 351ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 1098ms (2294 modules)
+ GET /settings 200 in 1744ms
+ GET /settings 200 in 184ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 907ms (2254 modules)
+ GET /nope-xyz 404 in 1450ms
+ GET /settings 200 in 291ms
+ GET /settings 200 in 408ms
+ GET /settings 200 in 338ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.5s (2841 modules)
+ GET / 200 in 3298ms
+ GET / 200 in 124ms
+ GET / 200 in 121ms
+ GET / 200 in 119ms
+ GET / 200 in 123ms
+ GET /settings 200 in 499ms
+ ✓ Compiled in 2.2s (2275 modules)
+ GET /settings 200 in 245ms
+ GET /plan 200 in 590ms
+ GET /shopping 200 in 95ms
+ ○ Compiling /_not-found ...
+ GET /settings 200 in 165ms
+[?25h
+
+> fridgechef@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.25
+   - Local:        http://localhost:11973
+   - Network:      http://172.26.144.1:11973
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.4s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 10.5s (1427 modules)
+ GET /definitely-not-a-page 404 in 11620ms
+ ✓ Compiled in 362ms (649 modules)
+ ○ Compiling /[...slug] ...
+ ✓ Compiled /[...slug] in 818ms (1459 modules)
+(node:17672) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /definitely-not-a-page 404 in 2103ms
+ GET /no-such-page-xyz 404 in 212ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.9s (2797 modules)
+ GET / 200 in 5738ms
+ ○ Compiling /plan ...
+ ✓ Compiled /plan in 846ms (2826 modules)
+ GET /plan 200 in 1300ms
+ GET /no-such-page-xyz 200 in 532ms
+ ○ Compiling /planner ...
+ ✓ Compiled /planner in 918ms (2839 modules)
+ GET /planner 200 in 1380ms
+ GET /no-such-page-xyz 200 in 527ms
+ ○ Compiling /shopping ...
+ ✓ Compiled /shopping in 654ms (2848 modules)
+ GET /shopping 200 in 1046ms
+ GET /no-such-page-xyz 200 in 426ms
+ ○ Compiling /settings ...
+ ✓ Compiled /settings in 851ms (2841 modules)
+ GET /settings 200 in 1318ms
+ ○ Compiling /recipes ...
+ ✓ Compiled /recipes in 1367ms (2866 modules)
+ GET /recipes 200 in 1899ms
+ GET /no-such-page-xyz 200 in 604ms
+ ○ Compiling /saved ...
+ ✓ Compiled /saved in 909ms (2873 modules)
+ GET /saved 200 in 1591ms
+ GET /no-such-page-xyz 200 in 724ms
+ GET /favicon.ico 404 in 188ms
+ ✓ Compiled in 2.7s (2153 modules)
+ GET /no-such-page-xyz 200 in 302ms
+ ✓ Compiled / in 280ms (1481 modules)
+ GET / 200 in 1176ms
+ ✓ Compiled /plan in 480ms (1490 modules)
+ GET /plan 200 in 938ms
+ GET /favicon.ico 404 in 232ms
+ ✓ Compiled in 1095ms (2261 modules)
+ GET /plan 200 in 284ms
+ GET /no-such-page-xyz 200 in 284ms
+ GET /plan 200 in 526ms
+ GET /favicon.ico 404 in 108ms
+ GET /favicon.ico 404 in 232ms
+ GET /favicon.ico 404 in 284ms
+ ✓ Compiled in 672ms (1352 modules)
+ ✓ Compiled in 732ms (1352 modules)
+ GET /plan 200 in 752ms
+ GET /no-such-page-xyz 200 in 796ms
+ GET /plan 200 in 511ms
+ GET /plan 200 in 135ms
+ GET /no-such-page-xyz 200 in 172ms
+ GET /plan 200 in 106ms
+ GET /favicon.ico 404 in 214ms
+ GET /plan 200 in 91ms
+ GET /favicon.ico 404 in 792ms
+ GET /plan 200 in 1275ms
+ GET /no-such-page-xyz 404 in 1272ms
+ GET /plan 200 in 507ms
+ ○ Compiling /planner ...
+ ✓ Compiled /planner in 1144ms (939 modules)
+ GET /planner 200 in 1393ms
+ GET /favicon.ico 404 in 842ms
+ GET /favicon.ico 404 in 184ms
+ ○ Compiling /api/plan ...
+ ✓ Compiled /api/plan in 1233ms (2397 modules)
+ POST /api/plan 200 in 1501ms
+ GET /plan 200 in 137ms
+ ✓ Compiled in 923ms (1352 modules)
+ GET /plan 200 in 293ms
+ GET /plan 200 in 303ms
+ GET /no-such-page-xyz 200 in 292ms
+ GET /plan 200 in 530ms
+ GET /favicon.ico 404 in 181ms
+ GET /plan 200 in 194ms
+ GET /favicon.ico 404 in 194ms
+ GET /favicon.ico 404 in 715ms
+ GET /plan 200 in 811ms
+ GET /no-such-page-xyz 404 in 966ms
+ GET /plan 200 in 759ms
+ GET /plan 200 in 337ms
+ GET /plan 200 in 75ms
+ GET /plan 200 in 81ms
+ GET /plan 200 in 74ms
+ GET /plan 200 in 89ms
+[?25h
